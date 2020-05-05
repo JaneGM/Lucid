@@ -318,7 +318,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%; }
 
 .block_features {
-  border-bottom: solid 1px #ededed; }
+  border-bottom: solid 1px red; }
   .block_features .info-title {
     display: flex;
     flex-direction: column;
@@ -410,6 +410,93 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase; }
+
+.beautiful-device {
+  display: flex;
+  justify-content: space-around;
+  margin: 70px 0 75px 0; }
+  @media screen and (max-width: 414px) {
+    .beautiful-device {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 50px 0 55px 0; } }
+  .beautiful-device .beautiful-foto {
+    max-width: 430px; }
+    .beautiful-device .beautiful-foto img {
+      width: 100%; }
+    @media screen and (max-width: 768px) {
+      .beautiful-device .beautiful-foto {
+        max-width: 380px; } }
+  .beautiful-device .beautiful-info {
+    max-width: 475px;
+    padding: 50px 0 0 15px; }
+    @media screen and (max-width: 768px) {
+      .beautiful-device .beautiful-info {
+        max-width: 425px;
+        padding: 20px; } }
+    .beautiful-device .beautiful-info .info-1 {
+      margin: 0 0 40px 0; }
+      .beautiful-device .beautiful-info .info-1 .subtitle {
+        color: #008ed6;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 0 0 25px 0; }
+      .beautiful-device .beautiful-info .info-1 .title-black {
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 600;
+        font-size: 36px;
+        margin: 0 0 32px 0; }
+        .beautiful-device .beautiful-info .info-1 .title-black:after {
+          content: '';
+          display: block;
+          height: 2px;
+          width: 44px;
+          background-color: #008ed6;
+          margin-top: 35px; }
+          @media screen and (max-width: 768px) {
+            .beautiful-device .beautiful-info .info-1 .title-black:after {
+              margin-top: 25px; } }
+        @media screen and (max-width: 768px) {
+          .beautiful-device .beautiful-info .info-1 .title-black {
+            font-size: 32px;
+            margin: 0 0 26px 0; } }
+        @media screen and (max-width: 414px) {
+          .beautiful-device .beautiful-info .info-1 .title-black {
+            font-size: 30px; } }
+        @media screen and (max-width: 375px) {
+          .beautiful-device .beautiful-info .info-1 .title-black {
+            font-size: 26px; } }
+      .beautiful-device .beautiful-info .info-1 .p-info {
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #999999;
+        line-height: 28px; }
+        @media screen and (max-width: 667px) {
+          .beautiful-device .beautiful-info .info-1 .p-info {
+            font-size: 14px;
+            line-height: 24px; } }
+    .beautiful-device .beautiful-info .info-2 .item {
+      display: flex;
+      margin: 0 0 22px 0; }
+      .beautiful-device .beautiful-info .info-2 .item .item-logo {
+        width: 18px;
+        height: 18px;
+        margin: 0 11px 0 0; }
+        .beautiful-device .beautiful-info .info-2 .item .item-logo img {
+          width: 100%; }
+      .beautiful-device .beautiful-info .info-2 .item h4 {
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: black;
+        line-height: 28px; }
+        @media screen and (max-width: 768px) {
+          .beautiful-device .beautiful-info .info-2 .item h4 {
+            line-height: 22px; } }
 
 @media screen and (max-width: 767px) {
   .body.lock {
