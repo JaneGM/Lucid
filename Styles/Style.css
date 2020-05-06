@@ -296,7 +296,8 @@ h1, h2, h3, h4, h5, h6 {
       padding: 20px 28px;
       margin: 0 8px; }
       .conteiner-header .info .btn:hover {
-        background-color: #008ed6; }
+        background-color: #008ed6;
+        transition: 0.5s; }
       @media screen and (max-width: 768px) {
         .conteiner-header .info .btn {
           padding: 16px 20px; } }
@@ -679,6 +680,191 @@ h1, h2, h3, h4, h5, h6 {
           font-family: "Source Sans Pro", sans-serif;
           font-weight: 600;
           font-size: 14px; }
+
+.download {
+  background-color: black;
+  height: 172px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 25px; }
+  @media screen and (max-width: 768px) {
+    .download {
+      display: flex;
+      flex-direction: column; } }
+  .download .motivation {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 36px;
+    color: white; }
+    @media screen and (max-width: 1024px) {
+      .download .motivation {
+        font-size: 32px; } }
+    @media screen and (max-width: 812px) {
+      .download .motivation {
+        font-size: 26px; } }
+    .download .motivation p {
+      font-weight: 600; }
+    .download .motivation span {
+      font-weight: 300; }
+  .download .block-btn .btn {
+    height: 50px;
+    width: 160px;
+    border: solid 1px #434247;
+    border-radius: 2px;
+    padding: 20px 30px;
+    margin: 0 10px;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase; }
+    .download .block-btn .btn:hover {
+      background-color: #008ed6;
+      transition: 0.5s; }
+    @media screen and (max-width: 812px) {
+      .download .block-btn .btn {
+        width: 130px;
+        font-size: 10px;
+        padding: 12px 22px;
+        margin: 0; } }
+    @media screen and (max-width: 768px) {
+      .download .block-btn .btn {
+        width: 160px;
+        font-size: 14px;
+        padding: 20px 30px;
+        margin: 0 10px; } }
+    @media screen and (max-width: 414px) {
+      .download .block-btn .btn {
+        width: 130px;
+        font-size: 10px;
+        padding: 12px 22px; } }
+    @media screen and (max-width: 320px) {
+      .download .block-btn .btn {
+        width: 120px;
+        font-size: 12px;
+        padding: 10px 15px;
+        margin: 0 5px; } }
+
+.block-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 62px 0 0 0; }
+  .block-title .subtitle {
+    color: #008ed6;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 0 25px 0; }
+  .block-title .title-black {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    color: black;
+    margin: 0 0 32px 0; }
+    .block-title .title-black:after {
+      content: '';
+      display: block;
+      margin: auto;
+      height: 2px;
+      width: 44px;
+      background-color: #008ed6;
+      margin-top: 35px; }
+      @media screen and (max-width: 768px) {
+        .block-title .title-black:after {
+          margin-top: 25px; } }
+    @media screen and (max-width: 768px) {
+      .block-title .title-black {
+        font-size: 32px;
+        margin: 0 0 26px 0; } }
+    @media screen and (max-width: 414px) {
+      .block-title .title-black {
+        font-size: 30px; } }
+    @media screen and (max-width: 375px) {
+      .block-title .title-black {
+        font-size: 26px; } }
+
+.block-pricing {
+  display: flex;
+  justify-content: space-between; }
+  @media screen and (max-width: 568px) {
+    .block-pricing {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; } }
+  .block-pricing .item {
+    max-width: 270px;
+    height: 491px;
+    border: solid 1px #434247;
+    border-radius: 2px; }
+    @media screen and (max-width: 1024px) {
+      .block-pricing .item {
+        max-width: 220px; } }
+    @media screen and (max-width: 992px) {
+      .block-pricing .item {
+        max-width: 210px; } }
+    @media screen and (max-width: 568px) {
+      .block-pricing .item {
+        margin: 20px 0;
+        max-width: 270px; } }
+    .block-pricing .item .pricing-name {
+      text-transform: uppercase;
+      text-align: center;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      border-bottom: solid 1px #434247;
+      padding: 30px 0 24px 0; }
+    .block-pricing .item .price {
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 600;
+      font-size: 48px;
+      text-align: center;
+      padding: 44px 0 14px 0; }
+      .block-pricing .item .price sup {
+        font-size: 30px; }
+    .block-pricing .item .month {
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      text-align: center;
+      border-bottom: solid 1px #434247;
+      padding-bottom: 35px;
+      color: #999999; }
+    .block-pricing .item .price-info {
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      color: #999999;
+      text-align: center;
+      padding: 50px 0 42px 0; }
+      .block-pricing .item .price-info span {
+        color: #008ed6; }
+    .block-pricing .item .pricing-btn {
+      text-align: center;
+      margin: 42px 0 0 0; }
+      @media screen and (max-width: 812px) {
+        .block-pricing .item .pricing-btn {
+          margin: 0; } }
+      .block-pricing .item .pricing-btn a {
+        border: solid 1px #434247;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #008ed6;
+        padding: 20px 42px;
+        border-radius: 2px; }
+        @media screen and (max-width: 768px) {
+          .block-pricing .item .pricing-btn a {
+            padding: 15px 30px; } }
+        @media screen and (max-width: 568px) {
+          .block-pricing .item .pricing-btn a {
+            padding: 20px 42px; } }
 
 @media screen and (max-width: 767px) {
   .body.lock {
