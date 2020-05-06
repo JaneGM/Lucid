@@ -66,6 +66,13 @@
       margin: 20px 0;
       max-width: 270px;
     }
+    ul:hover{
+      .pricing-name{color: #008ed6;}
+      .price-month{background-color: #008ed6;color: white}
+      .month{color: white}
+      a{background-color: #008ed6;color: white}
+      }
+
     .pricing-name{
       text-transform: uppercase;
       text-align: center;

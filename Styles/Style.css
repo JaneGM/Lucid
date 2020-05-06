@@ -810,6 +810,16 @@ h1, h2, h3, h4, h5, h6 {
       .block-pricing .item {
         margin: 20px 0;
         max-width: 270px; } }
+    .block-pricing .item ul:hover .pricing-name {
+      color: #008ed6; }
+    .block-pricing .item ul:hover .price-month {
+      background-color: #008ed6;
+      color: white; }
+    .block-pricing .item ul:hover .month {
+      color: white; }
+    .block-pricing .item ul:hover a {
+      background-color: #008ed6;
+      color: white; }
     .block-pricing .item .pricing-name {
       text-transform: uppercase;
       text-align: center;
