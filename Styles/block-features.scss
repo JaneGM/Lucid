@@ -14,7 +14,11 @@
       margin: 40px 0 45px 0;
     }
     .subtitle{
-      @extend %subtitle;
+      color:#008ed6;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      text-transform: uppercase;
       margin-bottom: 24px;
     }
     .title-black{
@@ -111,11 +115,4 @@
       @extend .features-1
     }
   }
-}
-%subtitle{
-  color:#008ed6;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  text-transform: uppercase;
 }

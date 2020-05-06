@@ -1,0 +1,132 @@
+.testimonials{
+  background-image: url("../images/carousel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .block-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 62px 0 0 0;
+    .subtitle {
+      color: #008ed6;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      text-transform: uppercase;
+      margin: 0 0 25px 0;
+    }
+    .title-white {
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 600;
+      font-size: 36px;
+      color: white;
+      margin: 0 0 32px 0;
+      &:after {
+        content: '';
+        display: block;
+        margin: auto;
+        height: 2px;
+        width: 44px;
+        background-color: #008ed6;
+        margin-top: 35px;
+        @include max-screen(768px) {
+          margin-top: 25px;
+        }
+      }
+      @include max-screen(768px) {
+        font-size: 32px;
+        margin: 0 0 26px 0;
+      }
+      @include max-screen(414px) {
+        font-size: 30px;
+      }
+      @include max-screen(375px) {
+        font-size: 26px;
+      }
+    }
+  }
+  .carousel{
+    height: 320px;
+    max-width: 1120px;
+    margin: auto;
+    color: white;
+    @include max-screen(1024px){
+      max-width: 980px;
+    }
+    @include max-screen(992px){
+      max-width: 900px;
+    }
+    @include max-screen(812px){
+      max-width: 750px;
+    }
+    @include max-screen(768px){
+      max-width: 600px;
+    }
+    @include max-screen(414px){
+      max-width: 370px;
+    }
+    @include max-screen(375px){
+      max-width: 340px;
+    }
+    @include max-screen(320px){
+      max-width: 300px;
+    }
+    .block{
+      max-width: 520px;
+      @include max-screen(1024px){
+        max-width: 490px;
+      }
+      @include max-screen(992px){
+        max-width: 400px;
+      }
+      @include max-screen(812px){
+        max-width: 320px;
+      }
+      @include max-screen(768px){
+        max-width: 500px;
+      }
+      @include max-screen(414px){
+        max-width: 350px;
+      }
+      .review{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+        font-style: italic;
+    font-size: 24px;
+    color: white;
+        @include max-screen(414px){
+          font-size: 18px;
+        }
+  }
+      .client-block{
+        display: flex;
+        align-items: center;
+        margin: 30px 0 0 0;
+        .client-foto{
+          height: 60px;
+          width: 60px;
+          margin: 0 25px 0 0;
+
+          img{
+            width: 100%;
+            border-radius: 50%;
+          }
+        }
+        .client-info{
+          .client-name{
+            font-family: "Source Sans Pro", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 29px;
+          }
+          .client-position{
+            font-family: "Source Sans Pro", sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+          }
+        }
+      }
+      }
+  }
+}

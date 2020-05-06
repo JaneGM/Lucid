@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /*Обнуление*/
+@import url(owl.carousel.min.css);
+@import url(owl.theme.default.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,700&display=swap";
 @import url(../fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css);
 * {
@@ -70,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   font-size: 48px; }
 
-.conteiner-header .info .subtitle, .block_features .info-title .subtitle {
+.conteiner-header .info .subtitle {
   color: #008ed6;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 700;
@@ -328,6 +330,11 @@ h1, h2, h3, h4, h5, h6 {
       .block_features .info-title {
         margin: 40px 0 45px 0; } }
     .block_features .info-title .subtitle {
+      color: #008ed6;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      text-transform: uppercase;
       margin-bottom: 24px; }
     .block_features .info-title .title-black {
       font-family: "Source Sans Pro", sans-serif;
@@ -403,13 +410,6 @@ h1, h2, h3, h4, h5, h6 {
         @media screen and (max-width: 667px) {
           .block_features .features .features-1 .feature-info, .block_features .features .features-2 .feature-info, .block_features .features .features-3 .feature-info, .block_features .features .features-4 .feature-info {
             font-size: 14px; } }
-
-.conteiner-header .info .subtitle, .block_features .info-title .subtitle {
-  color: #008ed6;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 700;
-  font-size: 14px;
-  text-transform: uppercase; }
 
 .beautiful-device {
   display: flex;
@@ -497,6 +497,188 @@ h1, h2, h3, h4, h5, h6 {
         @media screen and (max-width: 768px) {
           .beautiful-device .beautiful-info .info-2 .item h4 {
             line-height: 22px; } }
+
+.block-customize {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 50px 50px 30px; }
+  @media screen and (max-width: 414px) {
+    .block-customize {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; } }
+  .block-customize .customize-info {
+    max-width: 485px;
+    margin: 0 25px 0 0; }
+    .block-customize .customize-info .info-1 {
+      margin: 0 0 40px 0; }
+      .block-customize .customize-info .info-1 .subtitle {
+        color: #008ed6;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 0 0 25px 0; }
+      .block-customize .customize-info .info-1 .title-black {
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 600;
+        font-size: 36px;
+        margin: 0 0 32px 0; }
+        .block-customize .customize-info .info-1 .title-black:after {
+          content: '';
+          display: block;
+          height: 2px;
+          width: 44px;
+          background-color: #008ed6;
+          margin-top: 35px; }
+          @media screen and (max-width: 768px) {
+            .block-customize .customize-info .info-1 .title-black:after {
+              margin-top: 25px; } }
+        @media screen and (max-width: 768px) {
+          .block-customize .customize-info .info-1 .title-black {
+            font-size: 32px;
+            margin: 0 0 26px 0; } }
+        @media screen and (max-width: 414px) {
+          .block-customize .customize-info .info-1 .title-black {
+            font-size: 30px; } }
+        @media screen and (max-width: 375px) {
+          .block-customize .customize-info .info-1 .title-black {
+            font-size: 26px; } }
+      .block-customize .customize-info .info-1 .p-info {
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #999999;
+        line-height: 28px; }
+        @media screen and (max-width: 667px) {
+          .block-customize .customize-info .info-1 .p-info {
+            font-size: 14px;
+            line-height: 24px; } }
+  .block-customize .customize-foto {
+    max-width: 600px; }
+    @media screen and (max-width: 768px) {
+      .block-customize .customize-foto {
+        max-width: 550px; } }
+    .block-customize .customize-foto img {
+      width: 100%; }
+
+.testimonials {
+  background-image: url("../images/carousel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .testimonials .block-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 62px 0 0 0; }
+    .testimonials .block-title .subtitle {
+      color: #008ed6;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      text-transform: uppercase;
+      margin: 0 0 25px 0; }
+    .testimonials .block-title .title-white {
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 600;
+      font-size: 36px;
+      color: white;
+      margin: 0 0 32px 0; }
+      .testimonials .block-title .title-white:after {
+        content: '';
+        display: block;
+        margin: auto;
+        height: 2px;
+        width: 44px;
+        background-color: #008ed6;
+        margin-top: 35px; }
+        @media screen and (max-width: 768px) {
+          .testimonials .block-title .title-white:after {
+            margin-top: 25px; } }
+      @media screen and (max-width: 768px) {
+        .testimonials .block-title .title-white {
+          font-size: 32px;
+          margin: 0 0 26px 0; } }
+      @media screen and (max-width: 414px) {
+        .testimonials .block-title .title-white {
+          font-size: 30px; } }
+      @media screen and (max-width: 375px) {
+        .testimonials .block-title .title-white {
+          font-size: 26px; } }
+  .testimonials .carousel {
+    height: 320px;
+    max-width: 1120px;
+    margin: auto;
+    color: white; }
+    @media screen and (max-width: 1024px) {
+      .testimonials .carousel {
+        max-width: 980px; } }
+    @media screen and (max-width: 992px) {
+      .testimonials .carousel {
+        max-width: 900px; } }
+    @media screen and (max-width: 812px) {
+      .testimonials .carousel {
+        max-width: 750px; } }
+    @media screen and (max-width: 768px) {
+      .testimonials .carousel {
+        max-width: 600px; } }
+    @media screen and (max-width: 414px) {
+      .testimonials .carousel {
+        max-width: 370px; } }
+    @media screen and (max-width: 375px) {
+      .testimonials .carousel {
+        max-width: 340px; } }
+    @media screen and (max-width: 320px) {
+      .testimonials .carousel {
+        max-width: 300px; } }
+    .testimonials .carousel .block {
+      max-width: 520px; }
+      @media screen and (max-width: 1024px) {
+        .testimonials .carousel .block {
+          max-width: 490px; } }
+      @media screen and (max-width: 992px) {
+        .testimonials .carousel .block {
+          max-width: 400px; } }
+      @media screen and (max-width: 812px) {
+        .testimonials .carousel .block {
+          max-width: 320px; } }
+      @media screen and (max-width: 768px) {
+        .testimonials .carousel .block {
+          max-width: 500px; } }
+      @media screen and (max-width: 414px) {
+        .testimonials .carousel .block {
+          max-width: 350px; } }
+      .testimonials .carousel .block .review {
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 24px;
+        color: white; }
+        @media screen and (max-width: 414px) {
+          .testimonials .carousel .block .review {
+            font-size: 18px; } }
+      .testimonials .carousel .block .client-block {
+        display: flex;
+        align-items: center;
+        margin: 30px 0 0 0; }
+        .testimonials .carousel .block .client-block .client-foto {
+          height: 60px;
+          width: 60px;
+          margin: 0 25px 0 0; }
+          .testimonials .carousel .block .client-block .client-foto img {
+            width: 100%;
+            border-radius: 50%; }
+        .testimonials .carousel .block .client-block .client-info .client-name {
+          font-family: "Source Sans Pro", sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 29px; }
+        .testimonials .carousel .block .client-block .client-info .client-position {
+          font-family: "Source Sans Pro", sans-serif;
+          font-weight: 600;
+          font-size: 14px; }
 
 @media screen and (max-width: 767px) {
   .body.lock {
