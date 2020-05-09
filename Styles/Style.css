@@ -97,7 +97,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   left: 0;
   top: 0;
-  z-index: 50; }
+  z-index: 50;
+  background-color: #15141a;
+  opacity: 0.7; }
   .header:before {
     content: '';
     position: absolute;
@@ -321,7 +323,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%; }
 
 .block_features {
-  border-bottom: solid 1px red; }
+  border-bottom: solid 1px #15141a; }
   .block_features .info-title {
     display: flex;
     flex-direction: column;
@@ -788,7 +790,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .block-pricing {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin: 0 0 60px 0; }
   @media screen and (max-width: 568px) {
     .block-pricing {
       display: flex;
@@ -875,6 +878,180 @@ h1, h2, h3, h4, h5, h6 {
         @media screen and (max-width: 568px) {
           .block-pricing .item .pricing-btn a {
             padding: 20px 42px; } }
+
+.contact-us {
+  background-color: #ededed; }
+  .contact-us .block-contact {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto; }
+    @media screen and (max-width: 992px) {
+      .contact-us .block-contact {
+        max-width: 900px; } }
+    @media screen and (max-width: 812px) {
+      .contact-us .block-contact {
+        max-width: 780px; } }
+    @media screen and (max-width: 768px) {
+      .contact-us .block-contact {
+        max-width: 700px; } }
+    @media screen and (max-width: 667px) {
+      .contact-us .block-contact {
+        max-width: 600px; } }
+    @media screen and (max-width: 414px) {
+      .contact-us .block-contact {
+        max-width: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
+    .contact-us .block-contact .contact-info {
+      text-align: center;
+      max-width: 210px; }
+      .contact-us .block-contact .contact-info p {
+        font-size: 18px;
+        font-weight: 400;
+        color: #999999;
+        line-height: 27px; }
+      .contact-us .block-contact .contact-info a {
+        margin: 0 0 34px 0;
+        color: #008ed6; }
+      .contact-us .block-contact .contact-info .fas {
+        font-size: 32px; }
+      .contact-us .block-contact .contact-info .far {
+        font-size: 24px; }
+  .contact-us .form {
+    margin: auto;
+    width: 770px;
+    height: 360px;
+    background-color: #15141a;
+    position: relative;
+    z-index: 2;
+    bottom: -65px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+    @media screen and (max-width: 812px) {
+      .contact-us .form {
+        width: 670px;
+        bottom: -15px; } }
+    @media screen and (max-width: 768px) {
+      .contact-us .form {
+        width: 650px; } }
+    @media screen and (max-width: 667px) {
+      .contact-us .form {
+        width: 550px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 420px; } }
+    @media screen and (max-width: 414px) {
+      .contact-us .form {
+        width: 300px; } }
+    .contact-us .form .input-block {
+      display: flex;
+      flex-direction: column; }
+      .contact-us .form .input-block input {
+        height: 50px;
+        width: 300px;
+        border: solid 1px #444348;
+        border-radius: 2px;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #444348;
+        text-transform: uppercase;
+        background-color: #15141a;
+        margin: 10px;
+        padding: 0 0 0 20px; }
+        @media screen and (max-width: 667px) {
+          .contact-us .form .input-block input {
+            height: 35px; } }
+        @media screen and (max-width: 414px) {
+          .contact-us .form .input-block input {
+            width: 250px;
+            font-size: 12px;
+            padding: 0 0 0 15px; } }
+    .contact-us .form textarea {
+      height: 190px;
+      width: 300px;
+      background-color: #15141a;
+      color: #444348;
+      border: solid 1px #444348;
+      border-radius: 2px;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      text-transform: uppercase;
+      margin: 10px;
+      padding: 20px 0 0 20px; }
+      @media screen and (max-width: 667px) {
+        .contact-us .form textarea {
+          height: 130px; } }
+      @media screen and (max-width: 414px) {
+        .contact-us .form textarea {
+          width: 250px;
+          font-size: 12px;
+          padding: 15px 0 0 15px; } }
+    .contact-us .form .send-messager {
+      height: 50px;
+      width: 170px; }
+      @media screen and (max-width: 667px) {
+        .contact-us .form .send-messager {
+          height: 35px; } }
+      @media screen and (max-width: 414px) {
+        .contact-us .form .send-messager {
+          width: 140px; } }
+      .contact-us .form .send-messager button {
+        background-color: #008ed6;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: white;
+        padding: 20px 35px;
+        text-transform: uppercase;
+        border-radius: 2px; }
+        @media screen and (max-width: 414px) {
+          .contact-us .form .send-messager button {
+            font-size: 12px;
+            padding: 15px 20px; } }
+
+.map {
+  position: relative;
+  z-index: 1;
+  height: 375px;
+  max-width: 1440px; }
+
+.footer {
+  height: 160px;
+  background-color: #15141a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  @media screen and (max-width: 414px) {
+    .footer {
+      height: 80px; } }
+  .footer a {
+    font-size: 18px;
+    color: #444348;
+    padding: 0 18px; }
+    @media screen and (max-width: 414px) {
+      .footer a {
+        font-size: 12px;
+        padding: 0 12px; } }
+    .footer a:hover {
+      color: #008ed6; }
+  .footer .copyright {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #444348;
+    text-transform: uppercase;
+    margin: 34px 0 0 0; }
+    @media screen and (max-width: 414px) {
+      .footer .copyright {
+        font-size: 10px;
+        margin: 24px 0 0 0; } }
 
 @media screen and (max-width: 767px) {
   .body.lock {
