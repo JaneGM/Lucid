@@ -1,6 +1,11 @@
 @media screen and (max-width: 767px) {
   .body.lock {
     overflow: hidden; } }
+@mixin max-screen($res) {
+  @media screen and (max-width: $res) {
+    @content;
+  }
+}
 %title{
   color: white;
   font-family:"Source Sans Pro",sans-serif;
@@ -280,6 +285,9 @@
     }
   }
   .foto-header{
+    @include max-screen(568px){
+      margin: 25px 0 0 0;
+    }
     img {
       width: 100%;
     }

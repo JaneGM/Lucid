@@ -18,6 +18,9 @@
     @include max-screen(667px){
       max-width: 600px;
     }
+    @include max-screen(568px){
+    max-width: 520px;
+    }
     @include max-screen(414px){
       max-width: 380px;
       display: flex;
@@ -32,10 +35,17 @@
       font-weight: 400;
       color: #999999;
         line-height: 27px;
+        @include max-screen(568px){
+        font-size: 14px;
+        line-height: 22px;
+        }
       }
       a{
         margin: 0 0 34px 0 ;
         color: #008ed6;
+        @include max-screen(414px){
+          margin: 20px 0 10px 0;
+        }
       }
       .fas{
         font-size: 32px;

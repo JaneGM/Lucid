@@ -63,6 +63,9 @@
     @include max-screen(768px){
       max-width: 600px;
     }
+    @include max-screen(568px){
+      max-width: 500px;
+    }
     @include max-screen(414px){
       max-width: 370px;
     }

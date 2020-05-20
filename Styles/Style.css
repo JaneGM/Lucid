@@ -319,6 +319,9 @@ h1, h2, h3, h4, h5, h6 {
       @media screen and (max-width: 568px) {
         .conteiner-header .info .btn-left {
           margin-top: 30px; } }
+  @media screen and (max-width: 568px) {
+    .conteiner-header .foto-header {
+      margin: 25px 0 0 0; } }
   .conteiner-header .foto-header img {
     width: 100%; }
 
@@ -351,6 +354,9 @@ h1, h2, h3, h4, h5, h6 {
         width: 44px;
         background-color: #008ed6;
         margin-top: 35px; }
+      @media screen and (max-width: 568px) {
+        .block_features .info-title .title-black {
+          font-size: 32px; } }
       @media screen and (max-width: 414px) {
         .block_features .info-title .title-black {
           font-size: 30px; } }
@@ -403,6 +409,9 @@ h1, h2, h3, h4, h5, h6 {
         @media screen and (max-width: 667px) {
           .block_features .features .features-1 .feature-name, .block_features .features .features-2 .feature-name, .block_features .features .features-3 .feature-name, .block_features .features .features-4 .feature-name {
             font-size: 20px; } }
+        @media screen and (max-width: 568px) {
+          .block_features .features .features-1 .feature-name, .block_features .features .features-2 .feature-name, .block_features .features .features-3 .feature-name, .block_features .features .features-4 .feature-name {
+            font-size: 18px; } }
       .block_features .features .features-1 .feature-info, .block_features .features .features-2 .feature-info, .block_features .features .features-3 .feature-info, .block_features .features .features-4 .feature-info {
         font-family: "Source Sans Pro", sans-serif;
         font-weight: 400;
@@ -627,6 +636,9 @@ h1, h2, h3, h4, h5, h6 {
     @media screen and (max-width: 768px) {
       .testimonials .carousel {
         max-width: 600px; } }
+    @media screen and (max-width: 568px) {
+      .testimonials .carousel {
+        max-width: 500px; } }
     @media screen and (max-width: 414px) {
       .testimonials .carousel {
         max-width: 370px; } }
@@ -898,6 +910,9 @@ h1, h2, h3, h4, h5, h6 {
     @media screen and (max-width: 667px) {
       .contact-us .block-contact {
         max-width: 600px; } }
+    @media screen and (max-width: 568px) {
+      .contact-us .block-contact {
+        max-width: 520px; } }
     @media screen and (max-width: 414px) {
       .contact-us .block-contact {
         max-width: 380px;
@@ -912,9 +927,16 @@ h1, h2, h3, h4, h5, h6 {
         font-weight: 400;
         color: #999999;
         line-height: 27px; }
+        @media screen and (max-width: 568px) {
+          .contact-us .block-contact .contact-info p {
+            font-size: 14px;
+            line-height: 22px; } }
       .contact-us .block-contact .contact-info a {
         margin: 0 0 34px 0;
         color: #008ed6; }
+        @media screen and (max-width: 414px) {
+          .contact-us .block-contact .contact-info a {
+            margin: 20px 0 10px 0; } }
       .contact-us .block-contact .contact-info .fas {
         font-size: 32px; }
       .contact-us .block-contact .contact-info .far {
