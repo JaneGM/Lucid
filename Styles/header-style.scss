@@ -50,7 +50,7 @@
   }
     @media screen and (max-width: 823px) {
       background-color: #16151b;
-      opacity: 0.7;
+      opacity: 1;
     }
   }
   .header_body {
@@ -156,7 +156,7 @@
   li {
     list-style: none;
     margin: 0 0 0 20px;
-    display: inline-block;
+    display:block;
 
     &:hover a:after {
       width: 100%;
@@ -173,6 +173,7 @@
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 600;
   font-size: 16px;
+  line-height: 2;
   &:after {
   content: "";
   display: block;
